@@ -1,0 +1,1 @@
+ALTER TABLE packages ADD COLUMN group_type ENUM('all', 'male_only', 'female_only', 'couple_only') NOT NULL DEFAULT 'all';
